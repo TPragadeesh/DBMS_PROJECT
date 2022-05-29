@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    /* background:linear-gradient(to right , rgba(98, 43, 201, 0.982) ,rgba(98, 43, 201, 0.5) ); */
+    background-color: rgb(10, 6, 43);
+}
+.form_container{
+    width: 45%;
+    margin-inline: auto;
+    background-color: rgba(14, 5, 74, 0.863);
+    padding:1rem;
+    border-radius: 20px;
+}
+.heading {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.heading > * {
+    margin:0px;
+    margin-bottom: 10px;
+}
+.hm {
+    color:rgb(255, 255, 255);
+    font-size: 4rem;
+    font-family:'Parisienne'
+}
+.sm {
+    color: white;
+    font-family: 'Parisienne';
+    font-size:2rem;
+}
+form {
+    padding:2rem;
+    display: flex;
+    flex-direction: column;
+}
+input {
+    font-size: 1.5rem;
+    border:none;
+    border-bottom: 2px solid rgb(222, 215, 215);
+    display: inline-block;
+    margin-block:1rem;
+    padding:0.5em;
+    padding-bottom: 0px;
+    padding-left:0px;
+    background-color: rgba(14, 5, 74, 0.1);
+    font-family: 'Roboto'; 
+}
+.btn_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input[type='submit'] {
+    color: white;
+    display: inline-block;
+    width:fit-content;
+    padding:1rem;
+    background-color: rgb(15, 33, 70);
+    border:1px solid white;
+    border-radius:20px;
+    font-family: 'Roboto'; 
+}
+.bth_btn{
+    color: white;
+    width: fit-content;
+    padding:1rem;
+    border:1px solid white;
+    border-radius:20px;
+    font-family: 'Roboto'; 
+    background-color: rgb(15, 33, 70);
+    font-size:1rem;
+}
